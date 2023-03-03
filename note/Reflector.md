@@ -456,3 +456,13 @@ loop:
 	return nil
 }
 ```
+
+### 总结
+ResourceVersion
+- 保证客户端数据一致性和顺序性
+- 并发控制
+
+Bookmarks
+- 减少ApiServer的负载
+- 更新客户端保存的最近一次ResourceVersion
+
